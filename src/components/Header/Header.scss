@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.75rem 0;
+  background-color: navy;
+
+  &__title {
+    color: white;
+    font-size: 3.75rem;
+  }
+}
