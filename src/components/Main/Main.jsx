@@ -65,7 +65,7 @@ const Main = () => {
   async function getWords() {
     try {
       const res = await axios.get(
-        "https://random-word-api.herokuapp.com/word?length=5"
+        "https://random-word-api.vercel.app/api?words=1&length=5"
       );
       // console.log(res.data[0]);
       setWord(res.data[0].toUpperCase());

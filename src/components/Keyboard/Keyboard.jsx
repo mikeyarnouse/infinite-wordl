@@ -58,7 +58,7 @@ const Keyboard = ({
         <Letter i="J" handleClick={handleClick} />
         <Letter i="K" handleClick={handleClick} />
         <Letter i="L" handleClick={handleClick} />
-        <Backspace i="Enter" handleClick={handleEnter} />
+        {/* <Backspace i="Enter" handleClick={handleEnter} /> */}
       </div>
 
       <div className="keyboard__row">
@@ -69,7 +69,12 @@ const Keyboard = ({
         <Letter i="B" handleClick={handleClick} />
         <Letter i="N" handleClick={handleClick} />
         <Letter i="M" handleClick={handleClick} />
+        {/* <Backspace i="Delete" handleClick={handleDelete} /> */}
+      </div>
+
+      <div className="keyboard__row">
         <Backspace i="Delete" handleClick={handleDelete} />
+        <Backspace i="Enter" handleClick={handleEnter} />
       </div>
     </div>
   );
